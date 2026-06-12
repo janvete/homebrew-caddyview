@@ -1,23 +1,23 @@
 class Caddyview < Formula
   desc "TUI SSH monitor for Caddy web server logs"
   homepage "https://github.com/janvete/caddyview"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/janvete/caddyview/releases/download/v0.5.0/caddyview-v0.5.0-darwin-arm64.tar.gz"
-      sha256 "7a51235e747941fe6a60c118add981c523eba41942b9bbeb9ba7040b6fe6ad0e"
+      url "https://github.com/janvete/caddyview/releases/download/v0.6.0/caddyview-v0.6.0-darwin-arm64.tar.gz"
+      sha256 "b1adf43946ca9e8c0072437ea2d5d6c5344f5bc7217426f43a4eb2c5038eaf3f"
     else
-      url "https://github.com/janvete/caddyview/releases/download/v0.5.0/caddyview-v0.5.0-darwin-amd64.tar.gz"
-      sha256 "7e84ac9c75f396f31e4b5cc93cee331b3bd91b4bcf021b6e8abacd65a2ffead8"
+      url "https://github.com/janvete/caddyview/releases/download/v0.6.0/caddyview-v0.6.0-darwin-amd64.tar.gz"
+      sha256 "e845671914d83eaf9e2da17d11c95e1b5f8fb134674b86c489b94747be7b97f3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/janvete/caddyview/releases/download/v0.5.0/caddyview-v0.5.0-linux-amd64.tar.gz"
-      sha256 "a698aa6769d8a70ab84ca8dd5ac9f021d04e446791f9cffd9ad0c7eb7ee1a0fc"
+      url "https://github.com/janvete/caddyview/releases/download/v0.6.0/caddyview-v0.6.0-linux-amd64.tar.gz"
+      sha256 "04aac1aa63935c48bc3c6d25285ba3a2d14aa949707ae9f413efa8a896c4928d"
     end
   end
 
