@@ -3,8 +3,8 @@ class Dsmview < Formula
 
   desc "TUI SSH monitor for Synology DSM 7.x"
   homepage "https://github.com/janvete/dsmview"
-  url "https://github.com/janvete/dsmview/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "8ffd399e6742081b1d2620dd9811e2464b6cab4a6c41d58601b89d922b00416e"
+  url "https://github.com/janvete/dsmview/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "045d1c6e9311a93a5ad820d08505954716fe603f6bc5c13e7d5f07ce359d86c5"
   license "MIT"
   head "https://github.com/janvete/dsmview.git", branch: "main"
 
